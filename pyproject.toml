@@ -1,0 +1,18 @@
+[project]
+name = "sqlagent"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "高磊"}
+]
+readme = "README.md"
+requires-python = ">=3.9,<4.0"  # 放宽到包含3.9及以上至4.0以下的版本
+dependencies = [
+    "langchain-community>=0.3.14,<0.4.0",
+    "langgraph (>=0.2.63,<0.3.0)",
+    "langchain-openai (>=0.3.0,<0.4.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
